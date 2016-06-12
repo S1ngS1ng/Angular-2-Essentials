@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<section>
+    <header>
+        <h1>Media Watch List</h1>
+        <p class="description">Keeping track of the media I want to watch.</p>
+    </header>
+    <media-item-form></media-item-form>
+    <media-item-list [mediaItemToWatch]="firstMediaItem" (deleted)="onMediaItemDeleted($event)"></media-item-list>
+</section>
