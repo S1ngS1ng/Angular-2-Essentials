@@ -1,6 +1,6 @@
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {enableProdMode} from '@angular/core';
-import {Angular2EssentialsAppComponent} from './app/angular-2-essentials.component';
+import {MediaAppComponent} from './app/media-app.component';
 import {environment} from './app/environment';
 import {MediaItemService} from './app/media-item.service';
 import {provide} from '@angular/core';
@@ -13,7 +13,7 @@ if (environment.production) {
     enableProdMode();
 }
 
-bootstrap(Angular2EssentialsAppComponent, [
+bootstrap(MediaAppComponent, [
     MediaItemService,
     provide(LOOKUP_LISTS, { useValue: lookupLists }),
     HTTP_PROVIDERS,

@@ -1,0 +1,1 @@
+export { default } from 'angular-2-essentials/components/media-item-list';

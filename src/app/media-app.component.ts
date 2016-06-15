@@ -11,9 +11,9 @@ import {MediaItemFormComponent} from './media-item-form.component';
     moduleId: module.id,
     selector: 'media-tracker-app',
     directives: [MediaItemListComponent, MediaItemFormComponent],
-    templateUrl: 'angular-2-essentials.component.html',
-    styleUrls: ['angular-2-essentials.component.css']
+    templateUrl: 'media-app.component.html',
+    styleUrls: ['media-app.component.css']
 })
-export class Angular2EssentialsAppComponent {
-    title:'angular-2-essentials works!';
+export class MediaAppComponent {
+    title:'Media app works';
 }
