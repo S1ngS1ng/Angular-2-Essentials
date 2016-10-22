@@ -1,4 +1,7 @@
 # Angular-2-Essentials
+
+## Live demo: http://singsing.io/Angular-2-Essentials
+
 ### Update 10/22/2016
 > **Project Status**
 > 
@@ -46,6 +49,10 @@
 2. `cd Angular-2-Essentials`
 3. `npm i`
 4. `npm start`
+
+# Deploy to github-pages is easy
+`ng github-pages:deploy --message "Deploy messge"`
+> ref: https://github.com/angular/angular-cli#deploying-the-app-via-github-pages
 
 # Have better ideas? Help me improve!
 1. Fork this
