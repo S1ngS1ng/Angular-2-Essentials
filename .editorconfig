@@ -1,5 +1,10 @@
-# http://editorconfig.org
+# Editor configuration, see http://editorconfig.org
 root = true
+
+[*.json]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
 
 [*]
 charset = utf-8

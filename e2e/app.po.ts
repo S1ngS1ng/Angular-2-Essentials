@@ -1,9 +1,11 @@
-export class Angular2EssentialsPage {
+import { browser, element, by } from 'protractor';
+
+export class MigratingProjectPage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('angular-2-essentials-app h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }

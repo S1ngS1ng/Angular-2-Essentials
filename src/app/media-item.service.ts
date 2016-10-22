@@ -1,4 +1,11 @@
+import { Injectable } from '@angular/core';
+import { Media } from './media';
+
+@Injectable()
 export class MediaItemService {
+
+  constructor() { }
+
     get() {
         return this.mediaItems;
     }
@@ -11,7 +18,7 @@ export class MediaItemService {
             this.mediaItems.splice(index, 1);
         }
     }
-    mediaItems = [
+    mediaItems:Media[] = [
         {
             id: 1,
             name: "Firebug",
