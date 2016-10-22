@@ -1,43 +1,31 @@
-# Angular-2-Essentials
-* This project is built according to: [THIS](http://www.lynda.com/AngularJS-tutorials/AngularJS-2-Essential-Training/422834-2.html)
+# MigratingProject
 
-# Project Structure
-    .
-    ├── config                      # Configuration of `environment`, `karma` and `protractor`
-    ├── e2e                         # Protractor test files
-    ├── public                      # Created by `Angular-cli`
-    ├── src                         # Source code
-    │   ├── app                     # Project Source Code
-    │   ├── index.html              # Index file
-    │   ├── main.ts                 # Top-level component
-    │   ├── system-config.ts        # System.js Configuration file
-    │   ├── tsconfig.json           # TS compiler configuration file
-    ├── .gitignore                  # You know the drill...
-    ├── Angular 2 - S1ngS1ng.pdf    # Slides
-    ├── angular-cli.json            # Angular-CLI configuration file
-    ├── angular-cli-build.js        # Angular-CLI build configuration file
-    ├── package.json                # npm configuration file
-    ├── README.md                   # Read this FIRST :)
-    ├── tslint.json                 # tsLint configuration file
-    └── ...
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Note that (as for Jun/2016):
-1. `HTTP` is not working as expected. I'll fix it ASAP
-2. `Router` of Angular 2 is still in beta. Will add that later
-3. All test is not working, more official document is needed
-4. Open an issue if you have better ideas. Much appreciated
+## Code scaffolding
 
-# Clone and play (Command line guide)
-1. `git clone https://github.com/S1ngS1ng/Angular-2-Essentials.git`
-2. `cd Angular-2-Essentials`
-3. `npm install`
-4. `npm start`
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-# Have better ideas? Help me improve!
-1. Fork this
-2. `git clone [yourURL]`
-3. coding...
-4. `git commit -m [commitMessage]`
-5. `git push [yourBranch]`
-6. Send Pull Request
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Deploying to Github Pages
+
+Run `ng github-pages:deploy` to deploy to Github Pages.
+
+## Further help
+
+To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

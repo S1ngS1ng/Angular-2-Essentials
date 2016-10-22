@@ -1,16 +1,11 @@
-// import {
-//   it,
-//   describe,
-//   expect,
-//   inject,
-//   beforeEachProviders
-// } from '@angular/core/testing';
-// import { CategoryList } from './category-list.pipe';
-//
-// describe('CategoryList Pipe', () => {
-//   beforeEachProviders(() => [CategoryList]);
-//
-//   it('should transform the input', inject([CategoryList], (pipe: CategoryList) => {
-//       expect(pipe.transform(true)).toBe(null);
-//   }));
-// });
+/* tslint:disable:no-unused-variable */
+
+import { TestBed, async } from '@angular/core/testing';
+import { CategoryListPipe } from './category-list.pipe';
+
+describe('Pipe: CategoryList', () => {
+  it('create an instance', () => {
+    let pipe = new CategoryListPipe();
+    expect(pipe).toBeTruthy();
+  });
+});
