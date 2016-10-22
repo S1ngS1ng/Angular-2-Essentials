@@ -1,31 +1,56 @@
-# MigratingProject
+# Angular-2-Essentials
+### Update 10/22/2016
+> **Project Status**
+> 
+* Update to Angular 2.0.0
+* Form module done
+* Filter, directive WIP
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+## This project is built according to: [THIS](http://www.lynda.com/AngularJS-tutorials/AngularJS-2-Essential-Training/422834-2.html)
+**The tutorial on [lynda](http://www.lynda.com/AngularJS-tutorials/AngularJS-2-Essential-Training/422834-2.html) is still using Angular2 beta version**
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**Build your app with the latest version is highly recommended. Update from beta to final realease is not fun**
 
-## Code scaffolding
+## Upgrade your project from System.js to Webpack
+> Angular-CLI is using webpack. Please follow [this official guide](https://github.com/angular/angular-cli/wiki/Upgrading-from-Beta.10-to-Beta.14).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+# Project Structure
+    .
+    ├── e2e                         # Protractor test files
+    ├── coverage                    # Auto-generated test coverage reports
+    ├── src                         # Source code
+    │   ├── app                     # Project Source Code
+    │   │   ├── media-item          # media-item module
+    │   │   ├── media-item-form     # media-item-form module
+    │   │   ├── media-item-list     # media-item-list module
+    │   │   ├── category-list.pipe  # A pipe for filtering data (WIP)
+    │   │   ├── favorite.directive  # A directive for customized style (WIP)
+    │   │   ├── media.interface.ts  # Interface of media data
+    │   │   ├── media-app.*.*       # A top-level module that wraps up all sub modules
+    │   │   ├── media-item.service  # A service handling CRUD of media items
+    │   │   └── providers.ts        # Opaque Token (WIP)
+    │   ├── main.ts                 # App entry file
+    │   ├── index.html              # Index file
+    │   └── tsconfig.json           # TS compiler configuration file
+    ├── .editorconfig               # Set coding style (indents, charset, etc.)
+    ├── .gitignore                  # You know the drill...
+    ├── Angular 2 - S1ngS1ng.pdf    # Slides
+    ├── angular-cli.json            # Angular-CLI configuration file
+    ├── package.json                # npm configuration file
+    ├── README.md                   # Read this FIRST :)
+    ├── tslint.json                 # tsLint configuration file
+    └── ...
 
-## Build
+# Clone and play (Command line guide)
+1. `git clone https://github.com/S1ngS1ng/Angular-2-Essentials.git`
+2. `cd Angular-2-Essentials`
+3. `npm i`
+4. `npm start`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Have better ideas? Help me improve!
+1. Fork this
+2. `git clone [yourURL]`
+3. coding...
+4. `git commit -m [commitMessage]`
+5. `git push [yourBranch]`
+6. Send Pull Request

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Media } from './media';
+import { Media } from './media.interface';
 
 @Injectable()
 export class MediaItemService {
